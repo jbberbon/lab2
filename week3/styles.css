@@ -76,40 +76,31 @@ li:last-child a {
 
 /* ------------------- LANDING PAGE ------------------- */
 .landing-page {
-    max-width: 70%;
+    /* box-sizing: border-box; */
+    max-width: 1100px;
     margin: auto;
-    margin-top: 5rem;
+    padding: 100px 50px 100px 50px;
 
     display: flex;
+    align-items: center;
     column-gap: 3rem;
 }
 
 .hero-container {
-    width: 2000px;
-    height: auto; 
+    width: 300px;
+    height: 340px;
     background-image: linear-gradient(#e7e7e7 30%, rgb(206, 206, 206));
     border-radius: 20px;
-    background-size: fill;
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
 }
     .hero {
-        max-width: 100%;
-        height: auto;
         transform: rotateY(180deg);
-        /* background-size: contain; */
-        
     }
 
 .landing-text {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    row-gap: 2rem;
-
-    min-width: 300px;
+    row-gap: 1rem;
 }
     .landing-text h1 {
         font-family:system-ui, -apple-system, Cantarell, 'Open Sans', sans-serif;   
