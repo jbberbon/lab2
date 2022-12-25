@@ -4,50 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profile</title>
-
-    <style>
-        img {
-            transform: scaleX(-1);
-        }
-        h1, h2, h4, p {
-            font-family: Arial, Helvetica, sans-serif;
-            color: rgb(83, 83, 83);
-        }
-
-        .hero-section {
-            display: flex;
-            align-items: center;
-        }
-
-        .interest {
-            display: flex;
-        }
-    </style>
+    <title>John Christian Berbon</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" type="image/png" href="images/jc.png">
 </head>
 <body>
-    <section class="hero-section">
-        <img src="images/hero.png" alt="hero image" width="100" height="auto" class="hero">
-        <h1>John Christian Berbon</h1>
-    </section>
+    <header>
+        <a href="index.html"><img src="/images/jc.png" alt="jc logo" height="30" width="auto"></a>
+        <a href="index.html" class="jc">John Christian Berbon</a>  
+        <nav class="header-nav">
+            <ul class="header-ul">
+                <li class="header-li"><a href="https://github.com/jbberbon">Github</a></li>
+                <li class="header-li"><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">LinkedIn</a></li>
+                <li class="header-li"><a href="#">About</a></li>
+                <li class="header-li"><a href="#">Contact</a></li>
+                <li class="header-li"><a href="https://github.com/jbberbon"><button class="nav-button">View Work</button></a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <section class="info">
-        <p>Nickname: Chris</p>
-        <p>Age: 21</p>
-        <p>Address: Tabaco City, Albay</p>
-    </section>
+    <main>
+        <section class="landing-page">
+            <div class="hero-container">
+                <img src="images/hero.png" alt="hero shot" class="hero">
+            </div>
+            <div class="landing-text">
+                <h1>Hi there!</h1>
+                <p>I am just starting out on my journey as a web developer, but I am eager to learn and grow my skills. I have a good foundation in HTML, CSS, and JavaScript, and I am always looking for new opportunities to build and improve my portfolio.</p>
+            </div>
 
-    <h2>Interests</h2>
-    <section class="interest">
-        <div class="cats">
-            <h4>Cats</h4>
-            <img src="images/cats.jpg" alt="cats" height="200" width="auto">
-        </div>
-        <div class="photography">
-            <h4>Photography</h4>
-            <img src="images/namanday.jpg" alt="beach" height="200" width="auto">
-        </div>
-        <div class="sleep"></div>
-    </section>
+        </section>
+    </main>
 </body>
 </html>

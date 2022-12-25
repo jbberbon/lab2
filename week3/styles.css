@@ -1,0 +1,129 @@
+/* ------------------- CSS RESET ------------------- */
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+ol, ul {
+    list-style: none;
+}
+/* img {
+    max-width: 100%;
+    height: auto;
+} */
+
+
+
+/* ------------------- HEADER NAV BAR ------------------- */
+body {
+    background-color: #e7e7e7;
+}
+header {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;  
+    align-items: center;
+    margin: auto;
+    height: 4rem;
+    max-width: 90%;
+}
+.header-nav {
+    margin-left: auto;
+}
+.header-ul {
+    list-style-type: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+    .header-ul li {
+        display: inline;
+    }
+    li a, .jc {
+        text-align: center;
+        padding: 16px;
+        text-decoration: none;
+
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+        color: rgb(31, 31, 31);
+    }
+.jc {
+    padding-left: 10px;
+}
+li:last-child a {
+    padding-right: 0;
+}
+/* --------------> Nav Button */
+.nav-button {
+    background-color: rgb(31, 31, 31);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px 10px 15px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+
+/* ------------------- LANDING PAGE ------------------- */
+.landing-page {
+    max-width: 70%;
+    margin: auto;
+    margin-top: 5rem;
+
+    display: flex;
+    column-gap: 3rem;
+}
+
+.hero-container {
+    width: 2000px;
+    height: auto; 
+    background-image: linear-gradient(#e7e7e7 30%, rgb(206, 206, 206));
+    border-radius: 20px;
+    background-size: fill;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+    .hero {
+        max-width: 100%;
+        height: auto;
+        transform: rotateY(180deg);
+        /* background-size: contain; */
+        
+    }
+
+.landing-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 2rem;
+
+    min-width: 300px;
+}
+    .landing-text h1 {
+        font-family:system-ui, -apple-system, Cantarell, 'Open Sans', sans-serif;   
+        font-weight: bold;
+        font-size: 4rem;
+        
+        color: rgb(41, 41, 41);
+
+    }
+    .landing-text p {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 2rem;
+        line-height: 150%;
+
+        color: rgb(53, 53, 53);
+
+    }
